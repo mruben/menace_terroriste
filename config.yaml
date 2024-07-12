@@ -1,0 +1,27 @@
+paths:
+  raw_data: "data/raw/terrorisme_sahel.csv"
+  past_data: "data/processed/past_data.csv"
+  X_test: "data/processed/x_test.csv"
+  y_test: "data/processed/y_test.csv"
+  future_data: "data/processed/future_data.csv"
+  processed_data: "data/processed/processed_data.csv"
+  predictions_past_data: "data/processed/predictions_past_data.csv"
+  predictions_future_data: "data/processed/predictions_future_data.csv"
+  model: "models/terrorism_model.pkl"
+  json:
+    actor_type: "references/json/actor_type.json"
+    interaction_type: "references/json/interaction_type.json"
+    terrorist_group_filiation: "references/json/terrorist_group_filiation.json"
+    admin1_mali: "references/json/admin1_mali.json"
+    admin1_niger: "references/json/admin1_niger.json"
+    admin1_burkina_faso: "references/json/admin1_burkina_faso.json"
+  figures: "reports/figures/"
+  shp:
+    mali: "references/shp/mali_admin1.shp"
+    niger: "references/shp/niger_admin1.shp"
+    burkina_faso: "references/shp/burkina_faso_admin1.shp"
+countries:
+  all: ['Burkina Faso', 'Mali', 'Niger']
+dates:
+  start: "2021-06-01"
+  end: "2024-04-30"
