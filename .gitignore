@@ -165,8 +165,8 @@ cython_debug/
 # VSCode configuration files
 .vscode/
 
-# Data folder
-data/
+# # Data folder
+# data/
 
 # Fichiers mac
 .DS_Store
